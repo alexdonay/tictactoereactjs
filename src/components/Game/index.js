@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Board from '../Board'
 import calculateWinner from '../utils'
+
 class Game extends React.Component {
   constructor (props) {
     super(props)

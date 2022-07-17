@@ -1,4 +1,4 @@
-import Game from '../Game/Game';
+import Game from '../Game';
 
 function App() {
 
@@ -6,8 +6,9 @@ function App() {
     
     <div className="App">
       <header className="App-header">
-      
+      <h1>Tic Tac Toe Game</h1>
       <Game />
+    
       </header>
       
     </div>
